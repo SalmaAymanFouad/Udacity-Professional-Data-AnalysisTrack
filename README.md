@@ -21,17 +21,17 @@ The Chicago and New York City files also have the following extra two columns:
 2. Read Data from corresponding city .csv file and then put it in a DataFrame (data structure type in Pandas library) and then filter the DataFrame considering the *month* and *day of the week*
 3. Get some Statistical Data like:
 Statistical output related to time of travel:
-- most common month
-- most common day of week
-- most common hour of day
+       - most common month
+       - most common day of week
+       - most common hour of day
 Statistical output related to traveling stations:
-- most common start station
-- most common end station
-- most frequent combination of start station and end station
+       - most common start station
+       - most common end station
+       - most frequent combination of start station and end station
 Statistical output related to Trip duration:
-- total travel time
-- average travel time
-Statistical output related to User info
-- counts of each user type
-- counts of each gender (only available for NYC and Chicago)
-- earliest, most recent, most common year of birth (only available for NYC and Chicago)
+       - total travel time
+       - average travel time
+Statistical output related to User info:
+       - counts of each user type
+       - counts of each gender (only available for NYC and Chicago)
+       - earliest, most recent, most common year of birth (only available for NYC and Chicago)
