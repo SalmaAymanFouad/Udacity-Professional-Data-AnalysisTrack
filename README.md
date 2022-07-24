@@ -4,15 +4,15 @@ This project is the first project in egfwd Professional Data Analysis track. It 
 The project aims to explore bike share systems data in 3 differents states in USA: Chicago, New York City, and washington. 
 ## Dataset Details:
 Given 3 .csv files for each state that contain 6 core columns shown below:
-- Start Time (e.g., 2017-01-01 00:07:57)
-- End Time (e.g., 2017-01-01 00:20:53)
-- Trip Duration (in seconds - e.g., 776)
-- Start Station (e.g., Broadway & Barry Ave)
-- End Station (e.g., Sedgwick St & North Ave)
-- User Type (Subscriber or Customer)
+   - Start Time (e.g., 2017-01-01 00:07:57)
+   - End Time (e.g., 2017-01-01 00:20:53)
+   - Trip Duration (in seconds - e.g., 776)
+   - Start Station (e.g., Broadway & Barry Ave)
+   - End Station (e.g., Sedgwick St & North Ave)
+   - User Type (Subscriber or Customer)
 The Chicago and New York City files also have the following extra two columns:
-- Gender
-- Birth Year
+   - Gender
+   - Birth Year
 ## Code flow:
 1. It starts by getting input from user to filter the data, these inputs are:
    - State name
