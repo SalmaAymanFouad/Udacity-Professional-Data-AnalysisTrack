@@ -2,7 +2,9 @@
 ## Project Overview:
 This project is the first project in egfwd Professional Data Analysis track. It aims to get some practice with python libraries that help in analysis as Numpy and Pandas.
 The project aims to explore bike share systems data in 3 differents states in USA: Chicago, New York City, and washington. 
+
 ## Dataset Details:
+
 Given 3 .csv files for each state that contain 6 core columns shown below:
 - Start Time (e.g., 2017-01-01 00:07:57)
 - End Time (e.g., 2017-01-01 00:20:53)
@@ -14,12 +16,17 @@ Given 3 .csv files for each state that contain 6 core columns shown below:
 The Chicago and New York City files also have the following extra two columns:
 - Gender
 - Birth Year
+
 ## Code flow:
+
 1. It starts by getting input from user to filter the data, these inputs are:
    - State name
    - Month
    - Day of the week
+ 
 2. Read Data from corresponding city .csv file and then put it in a DataFrame (data structure type in Pandas library) and then filter the DataFrame considering the *month* and *day of the week*
+
+
 3. Get some Statistical Data like:
    - **Statistical output related to time of travel:**
      - most common month
